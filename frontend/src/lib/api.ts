@@ -3,7 +3,7 @@ const BASE_URL_KEY = "fj_base_url";
 const TOKEN_KEY = "fj_token";
 const USER_KEY = "fj_user";
 
-export const DEFAULT_BASE_URL = "http://localhost:3000";
+export const DEFAULT_BASE_URL = "https://flyjayapps.vercel.app/";
 
 export function getBaseUrl(): string {
   return localStorage.getItem(BASE_URL_KEY) || DEFAULT_BASE_URL;
